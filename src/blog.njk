@@ -1,0 +1,13 @@
+---
+title: blog
+layout: 'base.njk'
+---
+
+<div class="blog-main">
+    <ul class="post-list">
+      {%- for post in collections.post | reverse -%}
+        {% include 'article-snippet.njk' %}
+      {%- endfor -%}
+      
+    </ul>
+  </div>

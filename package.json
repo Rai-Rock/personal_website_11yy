@@ -1,0 +1,24 @@
+{
+  "name": "eleventy-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rai-Rock/personal_website_11yy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rai-Rock/personal_website_11yy/issues"
+  },
+  "homepage": "https://github.com/Rai-Rock/personal_website_11yy#readme",
+  "dependencies": {
+    "luxon": "^2.3.0"
+  }
+}
