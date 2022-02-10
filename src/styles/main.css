@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: hsl(30, 40%, 2%);
   --secondary-color: #c8df7b;
   --font-primary: hsl(45, 2%, 38%);
   --font-secondary: rgb(133, 124, 122);
