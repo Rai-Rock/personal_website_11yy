@@ -1,12 +1,29 @@
 ---
-title: blog
+title: Blog
 layout: 'base.njk'
 ---
 
 <div class="blog-main">
     <ul class="post-list">
       {%- for post in collections.post | reverse -%}
-        {% include 'article-snippet.njk' %}
+        <li class="post-list__item">
+        <div>
+          <div class="post-list__meta">
+            <span>
+              {{ post.date | postDate }}
+            </span>
+            <span> | </span>
+            <span>{{post.data.reading}}</span>
+          </div>
+        </div>
+        <h3 class="post-list__title">
+          {{post.data.title}}
+        </h3>
+        <h4 class="">
+          {{post.data.meta}}
+        </h4>
+        <a class="post-list__more" href="{{ post.url }}">leggi <span style='font-size:18px;'>&#11116;</span>  </a>
+    </li>
       {%- endfor -%}
       
     </ul>

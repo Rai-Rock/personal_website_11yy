@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 :root {
+  --primary-color: hsl(30, 40%, 2%);
   --secondary-color: #c8df7b;
   --font-primary: hsl(45, 2%, 38%);
   --font-secondary: rgb(133, 124, 122);
@@ -32,7 +33,9 @@ header {
   position: sticky;
   top: 2rem;
 }
-
+span {
+  margin-left: 0.25rem;
+}
 h1 {
   color: var(--primary-color);
 }
@@ -227,7 +230,7 @@ footer {
   margin-left: 1rem;
 }
 
-.post-list__read-more {
+.post-list__more {
   font-size: 1rem;
   text-transform: capitalize;
   text-decoration: none;
@@ -237,7 +240,7 @@ footer {
   border: 1px solid var(--primary-color);
   border-radius: 0.25rem;
 }
-.post-list__read-more:hover {
+.post-list__more:hover {
   transition: transform 0.4s;
   transform: translate(0, -5px);
 }
