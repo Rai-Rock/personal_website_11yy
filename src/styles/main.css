@@ -51,7 +51,9 @@ picture {
   max-width: 100%;
   display: block;
 }
-
+i {
+  margin-left: 0.5rem;
+}
 /***********************/
 /********homepage******/
 /*********************/
