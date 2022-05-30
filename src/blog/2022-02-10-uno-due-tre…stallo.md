@@ -7,3 +7,11 @@ meta: Un primo articolo di prova del mio nuovo blog
 reading: 10 Minuti
 ---
 ![](/assets/man.jpg)
+
+<!--StartFragment-->
+
+Bridgewater’s competitive edge is our pioneering workplace culture that relies on truthful and transparent communication to ensure the best ideas win out. We believe meaningful work and meaningful relationships emerge when you assemble high-performing teams and push them to engage in rigorous and thoughtful inquiry.\
+\
+We champion diversity because it is essential to our ability to think differently. We cultivate inclusion because we believe people do their best work when they can be their genuine selves. By continually examining abilities and performance, we provide all our employees with the development they need to fulfill their potentials as professionals and people.
+
+<!--EndFragment-->
