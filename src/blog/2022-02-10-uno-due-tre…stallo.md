@@ -6,8 +6,8 @@ tags:
 meta: Un primo articolo di prova del mio nuovo blog
 reading: 10 Minuti
 ---
-> ![](/assets/man.jpg)
->
+![](/assets/man.jpg)
+
 > "Ciao questo è un test per un articolo del mio nuovo blog!"
 
 Bridgewater’s competitive edge is our pioneering workplace culture that relies on truthful and transparent communication to ensure the best ideas win out. We believe meaningful work and meaningful relationships emerge when you assemble high-performing teams and push them to engage in rigorous and thoughtful inquiry.\
