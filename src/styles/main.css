@@ -391,6 +391,7 @@ blockquote {
     max-width: 22rem;
     overflow-x: auto;
     justify-content: inherit;
+    white-space: nowrap;
   }
   nav-wrapper::-webkit-scrollbar {
     width: 0;
