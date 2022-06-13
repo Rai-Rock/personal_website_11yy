@@ -79,7 +79,7 @@ i {
 .nav-wrapper .nav-item {
   min-width: 3rem;
   height: 3rem;
-  margin-left: 1rem;
+  margin-left: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
