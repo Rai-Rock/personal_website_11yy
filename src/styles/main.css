@@ -66,6 +66,7 @@ i {
   max-width: 45rem;
   display: flex;
   justify-content: center;
+  overflow: auto;
   border-radius: 0.75rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -89,6 +90,22 @@ i {
     hsl(338, 14%, 73%) 100%
   );
   border-radius: 0.5rem;
+}
+.nav-wrapper .nav-item-first{
+  min-width: 3rem;
+  height: 3rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    120deg,
+    hsl(30, 5%, 76%) 0%,
+    hsl(338, 14%, 73%) 100%
+  );
+  border-radius: 0.5rem;
+
 }
 .current-page {
   min-width: 3rem;
@@ -373,8 +390,7 @@ blockquote {
 @media screen and (max-width: 576px) {
   .nav-wrapper {
     max-width: 22rem;
-    overflow-x: auto;
-    overflow-y: hidden;
+    justify-content: inherit;
   }
   nav-wrapper::-webkit-scrollbar {
     width: 0;
