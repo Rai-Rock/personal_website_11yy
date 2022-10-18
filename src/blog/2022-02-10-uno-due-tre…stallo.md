@@ -1,5 +1,5 @@
 ---
-title: Certo di un nuovo percorso...
+title: Certo di un nuovo percorso
 date: 2022-02-10T17:11:32.394Z
 tags:
   - post
