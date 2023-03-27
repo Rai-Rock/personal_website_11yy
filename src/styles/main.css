@@ -21,8 +21,9 @@
 }
 body {
   min-height: 100vh;
-  background-image: linear-gradient(120deg, #fef7f1 0%, #c9c6c4 100%);
+  background-image: linear-gradient(120deg, #fef7f1 0%, #aaa9a8 100%);
   font-size: var(--text-base);
+  color: var(--font-primary);;
   font-family: "Rubik", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -40,7 +41,6 @@ h1 {
   color: var(--primary-color);
 }
 h3 {
-  color: var(--font-secondary);
   font-weight: 400;
 }
 h4 {
@@ -63,10 +63,10 @@ i {
   margin: auto;
   margin-bottom: 4rem;
   max-height: 4rem;
-  max-width: 45rem;
+  max-width: 32rem;
   display: flex;
   justify-content: center;
-  border-radius: 0.75rem;
+  border-radius: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-image: linear-gradient(120deg, #fef7f1 0%, #ececec 100%);
@@ -88,7 +88,8 @@ i {
     hsl(30, 5%, 76%) 0%,
     hsl(338, 14%, 73%) 100%
   );
-  border-radius: 0.5rem;
+  border-radius: 2rem;
+
 }
 .nav-wrapper .nav-item-first{
   min-width: 3rem;
@@ -131,16 +132,17 @@ i {
 /*-----main section-----*/
 
 .main-wrapper {
-  max-width: 45rem;
+  max-width: 32rem;
   margin: auto;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  color: var(--primary-color);
 }
 
 main {
-  max-width: 40rem;
-  text-align: left;
-  line-height: 1.5rem;
+  max-width: 32rem;
+  text-align: center;
+  line-height: 1.3rem;
   margin: auto;
 }
 main h1 {
@@ -218,8 +220,7 @@ footer {
 /*****************************/
 
 .post-list__heading {
-  font-size: 1.875rem;
-  font-size: var(--text-3xl);
+  font-size: var(--text-xl);
   margin-bottom: 1rem;
 }
 .post-list {
@@ -228,7 +229,16 @@ footer {
   padding-inline-start: 0px;
 }
 .post-list__item {
-  padding: 1.5rem 0;
+  
+  background-image: linear-gradient(120deg, #fef7f1 0%, #ececec 100%);
+  display: flex;
+  padding: 1.5rem 1.5rem;
+  border-radius: 0.5rem;
+  
+}
+.post-list__item:hover {
+  padding: 1.5rem 1.5rem;
+  border: 1px solid var(--primary-color);
 }
 .post-list__title {
   font-family: "Rubik", sans-serif;
