@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-skeleton",
+  "name": "eleventy-personal-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "personal website",
   "main": ".eleventy.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Rai-Rock/personal_website_11yy#readme",
   "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
     "luxon": "^2.3.0"
   }
 }

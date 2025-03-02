@@ -1,9 +1,9 @@
 ---
 title: Terzo  articolo- test numero due
-date: 2023-09-15T08:11:13.708Z
+date: 2023-09-15
 tags:
   - post
-meta: terzo articolo
+meta: Terzo articolo di prova; questa è il suo estratto
 reading: 5 minuti
 ---
 a﻿ncora un testo di prova per un nuovo articolo del mio blog
