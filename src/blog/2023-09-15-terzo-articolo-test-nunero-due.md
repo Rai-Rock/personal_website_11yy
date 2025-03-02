@@ -1,9 +1,15 @@
 ---
-title: Terzo  articolo- test numero due
-date: 2023-09-15
+title: Perché ho creato il sito web
+date: 2025-03-02T15:49:39.896Z
 tags:
   - post
-meta: Terzo articolo di prova; questa è il suo estratto
+meta: e come l’ho creato
 reading: 5 minuti
 ---
-a﻿ncora un testo di prova per un nuovo articolo del mio blog
+Pippo è sulla necessità di avere un sito personale , di cui peraltro ho scritto il codice sorgente.
+
+Che figata!!!
+
+
+
+![](/assets/man.jpg)
