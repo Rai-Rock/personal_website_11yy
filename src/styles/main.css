@@ -28,6 +28,9 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
+button{
+  padding: 0 1rem;
+}
 header {
   margin-top: 2rem;
   position: -webkit-sticky;
@@ -54,6 +57,7 @@ picture {
 i {
   margin-left: 0.5rem;
 }
+
 /***********************/
 /********homepage******/
 /*********************/
@@ -204,6 +208,11 @@ footer {
 }
 .about h1 {
   margin-bottom: 2rem;
+}
+.contact-link{
+  text-decoration: none;
+  color: var(--font-primary);
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 /*****************************/
