@@ -58,6 +58,7 @@ i {
   margin-left: 0.5rem;
 }
 .tooltip-container {
+  margin:0 auto;
   position: relative;
   display: inline-block;
 }
@@ -246,22 +247,42 @@ footer {
 /******** All-Blogs page******/
 /*****************************/
 
+.blog-main {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-width: 0;
+  margin: 0 auto;
+}
 .post-list__heading {
   font-size: var(--text-xl);
-  margin-bottom: 1rem;
 }
 .post-list {
+  display:grid;
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 16px;
+grid-row-gap: 16px;
   list-style: none;
   margin-block-start: 0;
   padding-inline-start: 0px;
+.post-list__header{
+
+display:flex;
+}
+.post-list__tag{
+  margin-right: 1rem;
+  background-color: rgb(216, 234, 250);
+  max-width: fit-content;
+  padding: 0 1rem;
+  border-radius: 1rem;
+}
 }
 .post-list__item {
-  
   display: flex;
   flex-direction: column;
   padding: 1.5rem 1.5rem;
   border-radius: 0.5rem;
-  margin-bottom: 2rem;
 }
 .post-list__title {
   font-family: "Inter", sans-serif;
@@ -282,9 +303,7 @@ footer {
 .post-list__more {
   font-size: 0.75rem;
   text-transform: capitalize;
-  background-color:var(--secondary-color);
   padding: 0.25rem 0.25rem ;
-  margin-top: 0.5rem;
   max-width:4rem;
   border-radius: 0.5rem;
   padding: 0.5 1.5rem;
@@ -292,14 +311,6 @@ footer {
 .post-list__more:hover {
   transition: transform 0.4s;
   transform: translate(0, -5px);
-}
-
-.blog-main {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  min-width: 0;
-  max-width: 40rem;
-  margin: 0 auto;
 }
 
 /**********************/
@@ -313,9 +324,19 @@ footer {
 .article-wrapper {
   max-width: 40rem;
   margin: auto;
+  align-items: center;
 }
 article {
   margin-bottom: 6rem;
+  justify-items: center;
+}
+.article-button{
+  background-color: rgb(216, 234, 250);
+  max-width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border-style: none;
+  
 }
 code {
   margin-left: 1rem;
@@ -359,7 +380,8 @@ blockquote {
 }
 
 .container {
-  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
   margin-top: 12rem;
   color: var(--primary-color);
   text-align: justify

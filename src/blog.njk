@@ -8,9 +8,14 @@ layout: 'base.njk'
     <ul class="post-list">
       {%- for post in collections.post | reverse -%}
         <li class="post-list__item">
+        <div class="post-list__header">
         <h5 class="post-list__tag">
           {{post.data.tag}}
         </h5>
+        <h5>
+          {{post.data.date | postDate}}
+        </h5>
+        </div>
         <h3 class="post-list__title">
           {{post.data.title}}
         </h3>
