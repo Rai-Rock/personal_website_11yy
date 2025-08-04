@@ -1,0 +1,3 @@
+Sitemap: https://riccardogualtieri.netlify.app/sitemap.xml
+User-agent: *
+Disallow:

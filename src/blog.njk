@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Riccardo--Blog
 layout: 'base.njk'
 
 ---
@@ -8,12 +8,12 @@ layout: 'base.njk'
     <ul class="post-list">
       {%- for post in collections.post | reverse -%}
         <li class="post-list__item">
+        <h5 class="post-list__tag">
+          {{post.data.tag}}
+        </h5>
         <h3 class="post-list__title">
           {{post.data.title}}
         </h3>
-        <h4 class="">
-          {{post.data.meta}}
-        </h4>
         <a class="post-list__more" href="{{ post.url }}">Leggi &#8599;</a>
     </li>
       {%- endfor -%}
