@@ -176,7 +176,10 @@
     <div class="container">
      <h3>Mar 2, 2025</h3>
      <h1> La mia piccola dimora sull&#39;internet</h1>
-     <button onclick="copyToClipboard()">Condividi</button>
+     <div class="tooltip-container" id="copyContainer">
+  <button onclick="copyCurrentPageURL()">Copia link</button>
+  <div class="tooltip-text" id="tooltip">Link copiato!</div>
+</div>
      <p><img src="/assets/man.jpg" alt=""></p>
 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
 <p><a href="https://www.lipsum.com/">https://www.lipsum.com/</a></p>
@@ -203,6 +206,27 @@ function checkTime(i) {
 }
 </script>
 <script src="/scripts/main.js"></script>
+<script>
+
+function copyCurrentPageURL() {
+  const url = window.location.href;
+  navigator.clipboard.writeText(url)
+    .then(() => {
+      const container = document.getElementById('copyContainer');
+      const tooltip = document.getElementById('tooltip');
+      
+      container.classList.add('show-tooltip');
+
+      // Nasconde il tooltip dopo 2 secondi
+      setTimeout(() => {
+        container.classList.remove('show-tooltip');
+      }, 2000);
+    })
+    .catch(err => {
+      console.error("Errore nel copiare il link:", err);
+    });
+}
+</script>
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {

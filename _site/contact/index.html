@@ -206,6 +206,27 @@ function checkTime(i) {
 </script>
 <script src="/scripts/main.js"></script>
 <script>
+
+function copyCurrentPageURL() {
+  const url = window.location.href;
+  navigator.clipboard.writeText(url)
+    .then(() => {
+      const container = document.getElementById('copyContainer');
+      const tooltip = document.getElementById('tooltip');
+      
+      container.classList.add('show-tooltip');
+
+      // Nasconde il tooltip dopo 2 secondi
+      setTimeout(() => {
+        container.classList.remove('show-tooltip');
+      }, 2000);
+    })
+    .catch(err => {
+      console.error("Errore nel copiare il link:", err);
+    });
+}
+</script>
+<script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
