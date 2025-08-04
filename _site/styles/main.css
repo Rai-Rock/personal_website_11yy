@@ -478,6 +478,10 @@ blockquote {
     padding-right: 1rem;
     padding-left: 1rem;
   }
+  .post-list{
+    display:flex;
+    flex-direction: column;
+  }
   .post-list__read-more:hover {
     transition: transform 0.4s;
     transform: translate(0, -5px);
