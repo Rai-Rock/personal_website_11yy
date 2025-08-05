@@ -1,6 +1,6 @@
 ---
 title: E' tutta una questione di tasso
-date: 2022-02-10T17:11:32.394Z
+date: 2025-08-05T13:43:53.868Z
 tags:
   - Riflessioni
 meta: Avere un sito personale nel 2025?
