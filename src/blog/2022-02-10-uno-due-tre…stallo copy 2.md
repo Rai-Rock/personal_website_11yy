@@ -2,9 +2,9 @@
 title: E' tutta una questione di tasso
 date: 2022-02-10T17:11:32.394Z
 tags:
-  - post
-meta: Tasso fisso o variabile per il tuo mutuo? La guida definitiva
-reading: 8 minuti
+  - Riflessioni
+meta: Avere un sito personale nel 2025?
+reading: 5 Minuti
 image: /assets/man.jpg
 ---
 
